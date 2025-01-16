@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    restart: always
+    networks:
+      macvlan_network:
+        ipv4_address: 69.69.69.100
+    volumes:
+      - watchtower-data:/data/db
+
+volumes:
+  watchtower-data:
+
+networks:
+  macvlan_network:
+    external: true                   
+    name: my_macvlan_network

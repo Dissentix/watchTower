@@ -1,0 +1,17 @@
+{
+    "program_name": "Walmart",
+    "scopes": [
+        "asda.com","asdamediapartnership.com","asdaclothes.co.uk","asdasupplier.com","asda.jobs","asdagiftcards.com","asdastars.com","tellasda.com","samsclub.com","samsclubms.com","samsclubsng.com"
+    ],
+    "ooscopes": [
+        "x.walmart.com"
+    ],
+    "config": {
+        "providers": [
+            "crtsh",
+            "subfinder",
+            "abuseipdb",
+            "wayback"
+        ]
+    }
+}

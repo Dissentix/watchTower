@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+psycopg2-binary
+temp
+mongoengine
+python-dotenv
+tldextract
+urllib3 
+requests
+

@@ -1,0 +1,17 @@
+{
+    "program_name": "acronis",
+    "scopes": [
+        "acronis.com"
+    ],
+    "ooscopes": [
+        "x.acronis.com"
+    ],
+    "config": {
+        "providers": [
+            "crtsh",
+            "subfinder",
+            "abuseipdb",
+            "wayback"
+        ]
+    }
+}
